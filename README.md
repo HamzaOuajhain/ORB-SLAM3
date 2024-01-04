@@ -124,7 +124,7 @@ cd ~/Dev/ORB_SLAM3
 ```
 cd ~/Dev/ORB_SLAM3
 
-python evaluation/evaluate_ate_scale.py evaluation/Ground_truth/EuRoC_left_cam/MH01_GT.txt f_dataset-MH01_stereo.txt --plot MH01_stereo.pdf
+python2 evaluation/evaluate_ate_scale.py evaluation/Ground_truth/EuRoC_left_cam/MH01_GT.txt f_dataset-MH01_stereo.txt --plot MH01_stereo.pdf
 ```
 
 open the pdf `MH01_stereo.pdf` and you see the 
